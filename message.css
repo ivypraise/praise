@@ -1,0 +1,46 @@
+
+button[type="submit"] {
+    margin-left: 50px;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    background: transparent;
+    color: #dfdfdf;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: rgb(214, 226, 236);
+}
+#status {
+    margin-bottom: 20px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+#status.success {
+    background-color: lawngreen;
+    animation: status 4s ease delay forwards;
+}
+#status.error {
+    background-color: rgb(250, 129, 92);
+    color: white;
+    animation: status 4s ease forwards;
+}
+@keyframes status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}

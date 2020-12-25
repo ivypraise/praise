@@ -1,0 +1,56 @@
+.circle-1 {
+    padding: 5%;
+    width: 180px;
+    height: 180px;
+    margin: 0 10px;
+    mix-blend-mode: multiply;
+    margin-top: inherit;
+}
+
+.circle-2 {
+    padding: 5%;
+    width: 180px;
+    height: 180px;
+    margin: 0 10px;
+    mix-blend-mode: multiply;
+    margin-top: inherit;
+}
+
+.circle-3 {
+    padding: 5%;
+    width: 180px;
+    height: 180px;
+    margin: 0 10px;
+    mix-blend-mode: multiply;
+    margin-top: inherit;
+}
+
+.circle-1 {
+    position: inherit;
+    background: #f66;
+    border-radius: 70% 70% 70% 90%/70% 70% 90% 80%;
+}
+
+.circle-2 {
+    position: inherit;
+    background: #f92;
+    border-radius: 80% 30% 50% 50%/50% ;
+}
+
+.circle-3 {
+    position: inherit;
+    background: #1473D3;
+    border-radius: 40% 40% 50% 40%/30% 50% 50% 50% ;
+}
+
+.bodyx {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-size: cover;
+}
+.chmod {
+    font-weight: bold;
+    text-align: inherit;
+    color: white;
+}
