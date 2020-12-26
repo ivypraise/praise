@@ -48,7 +48,7 @@ html, body {
             width: 0;
       }
       to {
-            width: 18em;
+            width: 10em;
       }
 }
 
@@ -58,7 +58,7 @@ html, body {
                   width: 0;
             }
             to {
-                  width: 17em;
+                  width: 10em;
             }
       }
 }
@@ -408,7 +408,6 @@ h6 {
 
       display: flex;
       flex-wrap: wrap;
-      align-items: center;
       justify-content: space-between;
       
 }
