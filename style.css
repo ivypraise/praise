@@ -31,6 +31,11 @@ html, body {
       white-space: nowrap;
       overflow: hidden;
       transform: translateY(-50%);
+
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
 }
 
 .anim-typewriter {
@@ -389,7 +394,6 @@ h6 {
 /*--------------- footer section --------------- */
 
 .btn-interest {
-      position: inherit;
       text-align: center;
       width: 200px;
       padding: 5px;
@@ -401,6 +405,12 @@ h6 {
       border-radius: 20px;
       transition: 4s;
       background-color: none;
+
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      
 }
 .btnpopup {
       padding: 5px;
@@ -427,6 +437,7 @@ h6 {
       user-select: none;
 }
 #popup {
+      justify-content: inherit;
       align-items: center;
       opacity: 80%;
       border: 5px solid black;
